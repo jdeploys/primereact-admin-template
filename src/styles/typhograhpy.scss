@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'NanumSquareNeo';
+  src: url('../assets/fonts/nanum-square-neo/woff2/NanumSquareNeo-Variable.woff2')
+      format('woff2'),
+    url('../assets/fonts/nanum-square-neo/woff/NanumSquareNeo-Variable.woff')
+      format('woff'),
+    url('../assets/fonts/nanum-square-neo/eot/NanumSquareNeo-Variable.eot') format('eot');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body * {
+  font-family: 'NanumSquareNeo', sans-serif;
+}
