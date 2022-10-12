@@ -3,9 +3,7 @@ import AppIcon from '@/assets/icons/app-icon.svg';
 
 interface FooterProps {}
 
-const Footer = (props: FooterProps) => {
-  const {} = props;
-
+const Footer = ({}: FooterProps) => {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
